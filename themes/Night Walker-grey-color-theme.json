@@ -1,11 +1,50 @@
 {
-	"name": "Night Walker",
+	"name": "Night Walker Grey",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#076467",
-		"editor.foreground": "#96E6B3",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#000000",
+		//Button
+		"button.background": "#3d0e5f",
+
+		//DropDown
+		"dropdown.background": "#210238",
+		"dropdown.foreground" : "#f6d724",
+		"dropdown.border": "#f6d724",
+		"dropdown.listBackground":"#210238",
+
+		//SideBar
+		"sideBar.background":"#210238",
+		"sideBar.foreground": "#ffd904a1",
+		"sideBar.border":"#1b012f",
+		// "sideBar.dropBackground":"#ff0000",
+		 "sideBarTitle.foreground":"#ff0000",
+		"sideBarTitle.foreground": "#f6d724",
+				
+		"sideBarSectionHeader.background":"#430275",
+		"sideBarSectionHeader.border":"#210238",
+
+		//Editor Group
+		"editorGroup.border":"#ff0000",
+		"editorGroup.dropBackground":"#47047ab4",
+		"editorGroupHeader.noTabsBackground": "#140024",
+
+		//Activity Bar
+		"activityBar.background":"#18012a",
+		"activityBar.dropBackground": "#2f03539d",
+		"activityBar.foreground":"#fff",
+		"activityBar.inactiveForeground":"#c8acec",
+		"activityBar.border":"#1a012ef3",
+		"activityBarBadge.background": "#33035a",
+		"activityBarBadge.foreground":"#fff",
+		
+		//Progress Bar
+		"progressBar.background":"#1a012ef3",
+
+		//Badges
+		"badge.foreground":"#fff",
+		"badge.background": "#18012a",
+
+		"editor.background": "#2c123d",
+		"editor.foreground": "#fff",
 		
 	},
 	"tokenColors": [

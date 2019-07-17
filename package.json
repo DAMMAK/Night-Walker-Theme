@@ -1,21 +1,21 @@
 {
-    "name": "night-walker",
-    "displayName": "Night Walker",
-    "description": "A dark mode base theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Night Walker",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Night Walker-color-theme.json"
-            }
-        ]
-    }
+  "name": "night-walker",
+  "displayName": "Night Walker",
+  "description": "A dark mode base theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Walker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Walker-grey-color-theme.json"
+      }
+    ]
+  }
 }
