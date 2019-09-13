@@ -2,6 +2,23 @@
 	"name": "Night Walker Grey",
 	"type": "dark",
 	"colors": {
+		//Contrast Color
+		"contrastActiveBorder": "#91ff00",
+		"contrastBorder": "#ff0000",
+
+		//Base Color
+		"focusBorder": "#4400ff",
+		"foreground": "#ffffff",
+		"widget.shadow": "#57ffe9",
+		"selection.background": "#4400ff",
+		"descriptionForeground": "#91ff00",
+		"errorForeground": "#ff0000",
+
+		//Text Color
+		"textBlockQuote.background": "#ff0000",
+		"textBlockQuote.border": "#36e900",
+		"textCodeBlock.background": "#57ffe9",
+		"textLink.activeForeground": "#ff13cc",
 		//Button
 		"button.background": "#3d0e5f",
 
@@ -22,7 +39,7 @@
 		"sideBarSectionHeader.background":"#430275",
 		"sideBarSectionHeader.border":"#210238",
 
-		//Editor Group
+		//Editor Group & Tabs
 		"editorGroup.border":"#ff0000",
 		"editorGroup.dropBackground":"#47047ab4",
 		"editorGroupHeader.noTabsBackground": "#140024",
@@ -43,8 +60,30 @@
 		"badge.foreground":"#fff",
 		"badge.background": "#18012a",
 
+		//Scrollbar Control
+		"scrollbar.shadow":"#18012a",
+		"scrollbarSlider.activeBackground": "#18012a",
+		// "scrollbarSlider.background":"#49037e",
+		"scrollbarSlider.hoverBackground":"#18012a86",
+
+		//Input Control
+		"input.background":"#18012a",
+		"input.border":"#f6d724",
+		"input.foreground":"#f6d724",
+		"input.placeholderForeground": "#f6d72460",
+		// "inputOption.activeBorder":"#ff0000",
+		 "inputValidation.errorBackground": "#a82424",
+		 "inputValidation.errorForeground":"#fff",
+		 "inputValidation.errorBorder":"#a82424",
+		 "inputValidation.infoBackground": "#00ff2a",
+
+		 //List and Tree
+		 "list.activeSelectionBackground": "#95ff4e",
+		 
+
 		"editor.background": "#2c123d",
 		"editor.foreground": "#fff",
+
 		
 	},
 	"tokenColors": [
